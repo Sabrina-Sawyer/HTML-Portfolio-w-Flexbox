@@ -170,8 +170,16 @@
     background-size: 150%;
     transition: all 0.5s;
     font-size: 0.9rem;
+    
+  
   }
   
+  .flex-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: auto;
+  }
+
   /* feature first portfolio item */
   .flex-item:first-child {
       min-height: 400px;
@@ -185,6 +193,7 @@
   .flex-item div {
     background-color: var(--secondary);
     padding: 8px 10px;
+    position:absolute
   }
   
   .flex-item h3 {
